@@ -153,10 +153,22 @@ p{
 
 .casestudies h2{
     font-size: 30px;
+    padding-top: 100px;
    
 }
 
+.casestudies h2 span a{
+    color: #34f6f2;
+    margin: 10px;
+}
+
 /* ---This is the Tool Kit section--- */
+
+.toolkit{
+    
+    margin-top: 100px;
+    
+}
 
 .toolkit h2{
     text-align: center;
@@ -168,8 +180,8 @@ p{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 200px;
-   
+    padding-bottom: 100px;
+    
 }
 
 .iconbox{
@@ -178,26 +190,46 @@ p{
     margin: 20px;
 }
 
-.banner p{
+.banner {
     background-color: #fff;
     color: black;
-    font-size: 36px;
     font-weight:bold;
     text-align: center;
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: block;
 }
 
+.banner p{
+    font-size: 28px;
+}
+
 /* ---This is the footer */
+
+.social{
+    
+    justify-content: center;
+    margin: 0;
+}
+
+
+
 .foot{
     background-color: #080808;
     color: #fff;
     padding: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     text-align: center;
-    font-size: 12px;;
+    font-size: 12px;
 }
+
+/* .foot p{
+    text-align: justify;
+   
+    
+} */
+
 
 
 
